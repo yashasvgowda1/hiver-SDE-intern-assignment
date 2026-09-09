@@ -1,0 +1,6 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+data/amazon_customer_messages.csv filter=lfs diff=lfs merge=lfs -text
+data/twcs.csv filter=lfs diff=lfs merge=lfs -text
+hiver-sde-assignment/data/amazon_customer_messages.csv filter=lfs diff=lfs merge=lfs -text
+hiver-sde-assignment/data/twcs.csv filter=lfs diff=lfs merge=lfs -text
